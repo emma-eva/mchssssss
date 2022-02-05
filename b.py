@@ -1,8 +1,8 @@
 #!/bin/python3
 import os
 import sys
-import pi
-from pi import *
+import i
+from i import *
 
 pkg_data = open("./mchspkg/DEBIAN/control", "w+")
 pkg_data.write(f"Package: {MCHS_PKG_NAME}\n")

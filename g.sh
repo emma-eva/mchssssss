@@ -2,6 +2,6 @@
 PKG="mchspkg"
 DATA="mbd.tar"
 rm -rf ./$PKG
-rm ./pi.py
+rm ./i.py
 tar -xvf ./$DATA
 echo "MCHS New Project Created: $PKG"
