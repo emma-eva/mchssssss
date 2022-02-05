@@ -4,7 +4,7 @@ import sys
 import i
 from i import *
 
-pkg_data = open("./mchspkg/DEBIAN/control", "w+")
+pkg_data = open("./mchspkg/DEBIAN/control", "r+")
 pkg_data.write(f"Package: {MCHS_PKG_NAME}\n")
 pkg_data.write(f"Architecture: {MCHS_PKG_ARCH}\n")
 pkg_data.write(f"Maintainer: {MCHS_PKG_MAINTAINER}\n")
